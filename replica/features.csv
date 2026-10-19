@@ -1,0 +1,46 @@
+id,feature,area,priority,original,clone,size,skill,notes
+F01,Sign in (Apple / Google / email),onboarding,must,yes,partial,S,replica-backend,"S02 modal; no /login route. Apple sign-in mandatory for iOS | BUILD: fake auth; real Apple/Google is replica-backend | BACKEND: Supabase Auth (Apple/Google/OTP), users row + welcome grant by trigger. Not run."
+F02,Credit ledger: per-grant expiry; paid never expire,billing,must,yes,yes,M,replica-backend,"Paid credits never expire vs free expire in 3 days - needs a ledger not an int | BUILD: ledger w/ per-grant expiry, spend-expiring-first; 15 tests pass | BACKEND: ledger in SQL, 8 behaviour tests + 0 drift"
+F03,Daily check-in: 10 credits; 30 cap; +20 per 7-day streak,billing,must,yes,yes,S,replica-backend,"S04 inferred; their caps are harsh - consider looser | BUILD: 10/day + 20 per 7-day streak, one claim per day enforced | BACKEND: claim_daily_credits, once per local day, 7-day bonus, tested"
+F04,Credit packs one-time purchase,billing,must,yes,partial,M,replica-launch,S03; 300cr/$5.99 to 6000cr/$99.99 | BUILD: packs + buy flow work on the fake layer; no RevenueCat/IAP yet | BACKEND: webhook + credit_purchase idempotent and tested; RevenueCat SDK not wired
+F05,Credit quote shown before generating; re-quote on change,generate,must,yes,yes,M,replica-backend,"A confirmed credit total; changes require an updated quote | BUILD: pure quote engine, 22 tests; stale paramsHash rejected on submit | BACKEND: quote route + stale-hash rejection in submit_generation, tested"
+F06,Async job pipeline with progress and push on completion,generate,must,yes,partial,M,replica-backend,"F02 edge: queue stalls. Jobs outlive mobile session | BUILD: poll loop + cancel + progress; no push notification yet | BACKEND: poll/reap jobs + Expo push written, not executed"
+F07,My Creations gallery: play and download,library,must,yes,yes,S,replica-build,"S06 /my-creations (302 auth-gated) | BUILD: S06 with live polling, empty state, per-item states"
+F08,Photo to video (image-to-video),generate,must,yes,yes,M,replica-build,S07 Vidu Q3 Turbo 25cr/5s - THE core loop; build this first | BUILD: the vertical slice: photo -> quote -> job -> result
+F09,Motion prompt field with example chips,generate,must,yes,yes,S,replica-build,S07 S17 | BUILD: prompt field with example chips above it
+F10,Duration / resolution / aspect controls per model,generate,must,yes,yes,M,replica-build,"constraints differ per model: Veo 4/6/8s only, Vidu 1-16s | BUILD: options come from the model row; unavailable stay visible w/ reason"
+F11,Vertical 9:16 export for TikTok / Reels / Shorts,export,must,yes,partial,S,replica-build,every tool page pushes 9:16 | BUILD: aspect selector done; real MP4 export is native work
+F12,Talking baby: photo + audio lipsync,generate,must,yes,partial,M,replica-backend,S09 Kling Avatar 16cr/s 480p | BUILD: tool + model wired; blocked on F13
+F13,In-app audio recording,generate,must,yes,no,M,replica-build,S08 S09 S10 record-in-browser; RN needs native mic + trim | BUILD: in-app audio recording not started
+F14,Baby podcast format,generate,should,yes,no,S,replica-build,S08; the viral wedge - 6 rival apps all under 41 ratings | BUILD: needs F13
+F15,Baby singing to an audio track,generate,should,yes,no,S,replica-build,S10 30cr/s at 720p = $5.21 per 10s. Undercut this | BUILD: needs F13
+F16,Dancing baby via motion reference,generate,should,yes,partial,M,replica-backend,S11 Kling V2.6 Motion Control 11cr/s | BUILD: tool + model wired; blocked on F17
+F17,Sample motion library (no upload needed),generate,should,yes,no,S,replica-build,S11 lowers the barrier; removes rights risk | BUILD: sample motion library not started
+F18,Baby meme / template face swap,generate,could,yes,no,M,replica-backend,S12 15cr/s max 30s
+F19,Cartoon baby portrait with style presets,generate,must,yes,yes,S,replica-build,"S15 GPT Image 2.5 Flare Pro 2cr - cheapest hook in the app | BUILD: cartoon-baby tool, 2 credits, style presets"
+F20,Future baby from parent photos,generate,must,yes,no,S,replica-build,S01 - the free acquisition hook. 2 credits | BUILD: needs a 2-photo input the editor does not render yet
+F21,Age progression with age slider,generate,should,yes,partial,S,replica-build,"S14 Nano Banana 3cr/image; slider 1-100 | BUILD: age as segmented control, not the 1-100 slider"
+F22,Fruit baby novelty character,generate,could,yes,yes,S,replica-build,"S13 80cr flat | BUILD: fruit-baby tool, flat 80 credits"
+F23,Multi-model picker with a comparison view,generate,should,yes,no,M,replica-build,S17; power users only - hide behind Advanced on mobile | BUILD: model picker behind Advanced not built
+F24,General image generator,generate,could,yes,no,S,replica-build,S16 2/3/5cr by size
+F25,Birthday slideshow editor (20 photos / 90s),export,could,yes,no,L,replica-build,S18; a real video editor - defer
+F26,Baby name generator,extras,could,yes,no,S,replica-build,S19 SEO side tool
+F27,Guides / how-to content by intent,content,should,yes,no,M,replica-launch,S20 S21; 13 guides is their onboarding - rewrite from scratch
+F28,Multi-locale (10 languages),shell,should,yes,no,M,replica-build,S24; defer to v2 but design for it | BUILD: tokens + layout are locale-ready; no strings extracted
+F29,Watermark on free output,billing,should,yes,no,S,replica-build,Free videos include a watermark
+F30,Optional public gallery sharing,social,could,yes,no,M,replica-build,gallery sharing is optional; you start empty - low value at launch
+F31,Skin tone / hair / feature controls,generate,must,no,yes,S,replica-backend,"NOT IN ANY OF THEIR 12 TOOLS. fixes.md #4 - 10 reviews + 2 race complaints | BUILD: SkinToneControl above the prompt; 6 tones, labelled, defaults unset"
+F32,Native iOS and Android app,shell,must,no,yes,M,replica-build,"they are web-only with no store listing. Your main structural advantage | BUILD: Expo SDK 58, bundles for iOS: 1542 modules"
+F33,Reliable MP4 export,export,must,no,no,S,replica-build,their browser export falls back to WebM. Native solves this outright | BUILD: needs expo-media-library + a real render
+F34,Auto-refund credits on failed or stalled generation,billing,must,no,yes,S,replica-backend,"fixes.md #5 - 6 doesnt-work + 5 credit reviews | BUILD: refund on failure/cancel, idempotent; tested in SQL and in the fake layer | BACKEND: refund_generation idempotent; reap_stalled refunds; both tested"
+F35,One free re-roll per generation,generate,should,no,yes,S,replica-build,"fixes.md - 5 credit + 9 quality reviews | BUILD: one free re-roll, enforced once per generation | BACKEND: reroll_generation, free, once per parent, tested"
+F36,Free credits that do not expire in 3 days,billing,should,no,yes,S,replica-launch,"theirs expire in 3 days and signup awards nothing | BUILD: free credits last 14 days, not 3; stated on the claim button"
+F37,Cheaper audio-video route,generate,should,no,no,M,replica-backend,30cr/s = $5.21 per 10s singing clip. Clear price ceiling to undercut | BUILD: needs a real provider price comparison
+F38,Parental consent + child-photo policy in the terms,privacy,must,no,partial,S,replica-backend,their terms are 2.5KB and silent on it. Trust feature + App Store 5.1.1 risk | BUILD: consent copy on sign-in; no consent record or terms page | BACKEND: consent gate enforced in submit_generation; terms page still missing
+F39,Visible delete-my-photos; purge source after render,privacy,must,no,partial,S,replica-backend,fixes.md F08; required for store review of a kids-photo app | BUILD: delete-my-photos control not built | BACKEND: purge_after + purge job + DELETE /assets/:id written; UI control missing
+F40,Clear AI-generated labelling on output,privacy,should,yes,yes,S,replica-build,"they advise it on S14; make it default | BUILD: AI generated label baked into ResultCard, not optional"
+F41,Trained own video model,skip,skip,yes,skip,XL,-,SKIP: they rent Vidu/Kling/Veo/Seedance. So do you
+F42,Their commissioned showcase media,skip,skip,yes,skip,-,-,SKIP: their own creative work. Generate your own examples
+F43,Their written prompt library,skip,skip,yes,skip,-,-,SKIP: copy. Technique is fair game; the words are not
+F44,Their SEO estate (288 URLs / 10 locales),skip,skip,yes,skip,-,-,SKIP: cannot clone a backlink profile
+F45,Their public gallery content,skip,skip,yes,skip,-,-,SKIP: other peoples babies. You start empty

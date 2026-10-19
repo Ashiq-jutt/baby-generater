@@ -1,0 +1,125 @@
+SOURCE: https://babyvideo.ai/how-to/make-ai-videos
+
+babyvideo .ai
+Get Started
+Guides
+Pricing
+Blog
+United States
++10 Sign In
+babyvideo .ai
+Back to all guides 2026-10-10
+How to Make AI Videos from Text or Photos
+Use text-to-video to invent a scene, or image-to-video to animate a photo. Models with reference-media support can also use compatible images, video or audio. Start with one short shot and choose the workflow the selected model actually supports.
+Make the first attempt one short shot with a clear action. Text-to-video describes both the world and its movement. Image-to-video starts from a picture, so the prompt can concentrate on what moves, how the camera behaves and where the shot ends.
+Open the tool Quick Steps Choose the workflow Direct the shot Review and fix Build the final video Tutorial Examples (with prompts & settings) Tips FAQ Quick Steps
+Follow the steps from preparing your inputs to checking the result.
+Open the tool
+1
+Open the AI Video Generator, choose a video model and check its supported inputs. Select a text, image or reference workflow where available.
+2
+For text-to-video, describe the subject and scene without uploading a photo. For image-to-video, upload a clear source photo; use the model’s reference fields for additional supported media.
+3
+Write one main action and a camera instruction. For example: “Keep the garment still; slowly move the camera toward the buttons.” State what must stay consistent.
+4
+Set an available duration, aspect ratio, resolution and audio option. Review the credit total before Generate; choices and cost vary by model and input.
+5
+Open the completed result in your creations and play the entire clip with sound. Inspect the first and last frames, movement and object shapes, then download the version you want.
+Match your input to the right video mode
+Current Seedance 2.5 text and image modes offer 4–30 seconds, 480p/720p/1080p and an audio switch that starts on. Other models differ. Set duration in the control, not only in the prompt. Review the quoted credits after changing settings; if the interface asks you to confirm a refreshed price, read it before submitting again. Check watermark and optional gallery-sharing settings separately.
+Text: create a new scene The studio starts in Seedance 2.5 Text to Video. Use it when you have an idea but no starting image. Describe a subject, setting, one action and a camera direction. A long script with several locations is better split into separate shots.
+Image: animate an existing composition Choose Image to Video in the model menu and add a sharp source. Seedance 2.5 accepts a first image and an optional last image; their roles differ from a general style reference. This mode uses auto ratio to follow the first image, so crop for the destination before uploading.
+References: check each media field Reference modes may accept images, video or audio and offer generation, editing or extension tasks. Use only the fields and task types exposed by your chosen model. They are not interchangeable with the first-frame workflow or a finished timeline editor.
+Give the subject and camera separate jobs
+These shorter practice prompts are alternatives to the archived instructions below. Start with a supported 5–10-second setting and adjust after watching the result.
+A scene created from text
+A small sea turtle swims steadily through clear turquoise water above a shallow coral reef. The camera tracks slowly beside it at eye level. Gentle flipper movement and rippling sunlight. One continuous shot, ending with the turtle still visible in a wider view. Choose a landscape ratio such as 16:9. This is one action and one camera move. If audio is enabled, add a separate request for quiet underwater ambience.
+A product image with a moving camera
+Keep the garment flat and still. Slowly move the overhead camera toward the neckline and buttons, ending on a clear fabric close-up. Preserve the leaf print, seams and button positions. Soft steady window light, one continuous shot. Upload the garment photo in Image to Video. Avoid asking the sleeves to move if the goal is a stable product view. Prepare a vertical source for a vertical result.
+Tutorial Examples (with prompts & settings)
+Compare the examples, their available inputs and the settings recorded with them.
+Example 1
+Text-to-video: a sea turtle in a reef
+Click to open full details
+How to use this example
+These reviewed clips were made with the Gemini web tool; its exact model was not exposed. They illustrate the two workflows, not a selected BabyVideo model’s performance. The turtle uses text only; the garment clip includes its source photo. Compare the full motion and source details.
+Settings (used in this example)
+Aspect ratio
+16:9
+Resolution
+720p
+Duration
+10
+Prompt keywords
+A young sea turtle swims calmly through a sunlit shallow coral reef. Track gently beside it at turtle eye level as it makes natural alternating flipper strokes, passes a golden coral arch and enters bright turquoise water. Stable shell markings and realistic anatomy, delicate suspended particles, rippling sunlight and tiny distant fish. End on a peaceful wider reef view with the turtle visible. One continuous ten-second landscape shot. No people, text, duplicated limbs or cuts. Soft underwater ambience and gentle original piano notes.
+Watch the whole swim The landscape file is 1280 × 720 and about ten seconds long. Compare the turtle’s silhouette, flippers and shell markings from the opening to the wider ending. It has no input photo; a detailed first frame alone does not tell you whether motion remains coherent.
+Open tool View details
+Example 2
+Image-to-video: reveal garment details
+Click to open full details
+How to use this example
+These reviewed clips were made with the Gemini web tool; its exact model was not exposed. They illustrate the two workflows, not a selected BabyVideo model’s performance. The turtle uses text only; the garment clip includes its source photo. Compare the full motion and source details.
+Inputs
+Inputs 1
+Settings (used in this example)
+Aspect ratio
+9:16
+Resolution
+720p
+Duration
+10
+Prompt keywords
+Animate this cream cotton baby onesie photograph into a premium babywear product video. Keep the garment flat and still, preserving its sage leaf print, wooden buttons, linen backdrop and daisy. Slowly push the overhead camera toward the neckline and upper buttons to reveal the cotton texture. Warm window light and soft natural shadows. One continuous ten-second portrait shot. No people, hands, moving sleeves, new objects, text or logos. Quiet room ambience and gentle acoustic music.
+The camera moves closer; the garment stays laid out The 720 × 1280 clip lasts about ten seconds. Its source shows the complete cream onesie on linen with a daisy; the ending focuses on the neckline, leaf pattern and wooden buttons. That intentional close-up crops the garment, so it is a detail shot rather than a full-product view throughout.
+Check what matters for a product Pause at the beginning, middle and end to compare print, seams and button positions with the source. The archive is a fictional product demonstration made with Gemini, whose exact model was not exposed; it is not proof of a current studio model preserving a merchant’s SKU.
+Open tool View details
+Check time, movement and sound before another run
+Warping or unexpected movement Reduce the action or camera move and return to the clean source. Keep the same model, duration and image while changing one instruction. A higher resolution does not itself fix a bending object or changing face.
+An unwanted cut or rushed ending Ask for one continuous shot and one clear final view. Remove scene changes that compete for a short duration. If only the last moment is weak, trim the downloaded clip instead of regenerating the usable part.
+Unexpected or missing audio Listen to the entire download, not just the browser preview. Confirm that the chosen model supports audio and that its switch was enabled. A request for music or dialogue does not guarantee exact words, voice or synchronization. Add or replace a track in an editor when needed.
+Turn good shots into a finished edit
+Keep a simple shot list For a product sequence, plan a full view, a detail view and a closing frame. Generate each needed shot separately and save the source, prompt, model and settings with it. Use the same product reference to compare continuity.
+Trim and assemble elsewhere Download the chosen clips, remove weak starts or endings, then place them in order in a video editor. Add final captions, logo and a call to action there. The studio does not assemble these into a captioned timeline automatically.
+Check the exported file Play the final file on a phone. Check the crop, readable text, first and last frames and sound level. Keep the uncaptioned clips so a new language version can reuse the same visuals without another generation.
+Create or repair the starting image → Fix the still composition before animating it.
+Animate a portrait to recorded speech → Use the dedicated audio-led workflow when a specific recording matters.
+Tips
+If objects distort, simplify the motion and keep the camera steadier. Change one instruction at a time so you can compare the effect.
+A generated clip is a starting shot. Use a video editor to trim clips, combine scenes or add final captions before sharing.
+FAQ
+Can I generate a video without a photo? ▼ Yes, with a model that supports text-to-video. Image-to-video requires an image; reference-media requirements depend on the selected model.
+Will every video include sound? ▼ No. Audio support and controls vary by model. Check the available audio option and listen to the result; a sound request in the prompt alone does not guarantee an audio track.
+Why can’t I choose 9:16 in Seedance image-to-video? ▼ That mode uses auto to follow the first image’s ratio. Prepare a vertical first image for a vertical clip. Text-to-video and other models expose different ratio controls.
+Can a single prompt make a complete edited video? ▼ It can request a generated clip, but this studio does not automatically assemble a complete timeline with final captions and branding. Plan separate shots and finish them in a video editor.
+Does a prompt in another language change the soundtrack? ▼ The interface language does not translate a soundtrack. Specify the desired speech language when using a supporting model, then listen and verify it. For exact recorded speech, use a compatible audio-led workflow.
+Ready to generate?
+Choose your own inputs and check the available settings before generating.
+Open the main tool
+babyvideo .ai
+BabyVideo.ai helps you turn one photo into adorable AI baby videos, baby podcast clips, and playful AI baby creations in minutes.
+Contact: email@babyvideo.ai
+About
+Guides
+Blog
+Pricing
+Main
+Baby Photo to Video AI
+AI Baby Podcast Video Generator
+AI Dancing Baby Video Generator
+AI Baby Singing Video Generator
+AI Talking Baby Generator
+AI Fruit Baby Video Generator
+AI Baby Generator
+Baby Age Progression AI
+AI Cartoon Baby Generator
+Baby Meme
+Baby Name
+Birthday Video Maker
+Utility
+AI Image Generator
+AI Video Generator
+© 2025 • AI Baby Video All rights reserved.
+Privacy Policy
+Terms of Service
+Refund Policy
+How to Make AI Videos from Text or Photos

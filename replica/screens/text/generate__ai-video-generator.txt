@@ -1,0 +1,240 @@
+SOURCE: https://babyvideo.ai/generate/ai-video-generator
+
+babyvideo .ai
+Get Started
+Guides
+Pricing
+Blog
+United States
++10 Sign In
+babyvideo .ai
+AI Video Generator
+Create cinematic scenes, animate photos and make product clips from text or reference media. Start with Seedance 2.5, or explore Kling and Veo in the same workspace.
+Babywear product details
+Nursery mobile in motion
+Sea turtle reef story
+Why make videos with BabyVideo?
+Text
+Reference image
+Reference media
+One place for ideas, images and references
+Make a scene from a written idea, animate a photo or work with reference media in the same editor. Keep your project in one place as the idea develops.
+Shape the image, then bring it to life
+Use the image generator to develop the look before adding motion here. Keep the starting composition as a reference, then download the clip for your edit or social post.
+What you can create How it works Compare model options Credits and output Frequently asked questions
+Text to video AI for cinematic scenes
+Create a short visual scene without filming it. Describe the subject, action and camera movement for a story idea, an atmospheric insert or a video concept.
+Cinematic close-up of an ornate clockwork mechanism · Seedance 2.5 Give the shot a direction
+Describe the framing and mood, from a close-up to an establishing shot.
+Direct one main action and a camera move, such as a pan or tracking shot.
+Include ambience, effects or dialogue when using a model with audio.
+Create a scene from text
+Compare AI video generation models by workflow
+Seedance 2.5 Kling 3.0 Veo 3.1 Fast Vidu Q3 Turbo Image to Video
+Switch models without switching tools
+Explore Seedance, Kling or Veo with your own brief in one workspace. Compare motion, character detail and sound, with the credit cost visible before each generation.
+Compare model options Choose by the media you already have, the duration you need and the controls you want. Compare their supported inputs and settings below.
+Seedance 2.5
+Inputs Separate text, image and reference modes
+Available controls Text/image modes: 4–30 seconds, 480p–1080p and optional audio. Reference mode also supports editing or extending a clip.
+Kling 3.0
+Inputs Text and image inputs
+Available controls 3–15 seconds, optional audio and controls for multiple shots. Available inputs depend on the selected mode.
+Veo 3.1 Fast
+Inputs Separate text-to-video and image-to-video models
+Available controls 4, 6 or 8 seconds; 720p, 1080p or 4K. Select the matching input mode in the model menu.
+Vidu Q3 Turbo Image to Video
+Inputs Reference image and motion prompt
+Available controls 1–16 seconds, 540p–1080p and an audio option. Check the price for your settings.
+Prices are not identical across models or modes. Check the quote after choosing your model and references; review motion and details before sharing a clip.
+Choose a model in the editor
+Set duration, resolution and sound before generating
+The following settings apply to Seedance 2.5 text-to-video and image-to-video. Reference modes and other video models have their own supported inputs.
+4–30 seconds 480p, 720p or 1080p Audio on by default A confirmed credit total Available controls 4–30 seconds
+Choose a duration that fits the action. A shorter first draft helps keep the cost of exploring an idea down.
+480p, 720p or 1080p
+Select the output resolution in the editor. Check composition and motion before spending on a larger result.
+Audio on by default
+Describe the sounds you want. You can turn audio off if you will add your own soundtrack later.
+A confirmed credit total
+Check the price for your selected model, duration, resolution and inputs. Changes to the settings require an updated quote.
+Text-to-video offers selectable aspect ratios. Image-to-video follows the first image. Reference video inputs may add to the cost; the confirmed total is shown before you generate.
+View credit packs and pricing
+A tiny garden adventure
+10 s · 720p · audio
+Prompt idea Create a ten-second handmade clay animation for a gentle children's story. A tiny mint-green snail carrying a small yellow seed crosses a miniature garden path, stops beside a terracotta pot and watches a small white flower open. Keep the same snail, two eye stalks and spiral shell throughout. Grounded stop-motion movement, visible clay fingerprints, moss, soft peach sunrise and shallow depth of field. The camera tracks slowly at snail height, then holds on the flower and snail together. One continuous shot, calm and charming, no dramatic jump or morphing of the snail. Soft garden ambience, tiny leaf rustles and a few original celesta notes. No dialogue, lettering, logos or subtitles. Landscape 16:9, exactly ten seconds.
+A watercolor birthday greeting
+10 s · 720p · audio
+Prompt idea Create an elegant ten-second animated watercolor background for a baby's first-birthday greeting, landscape 16:9. On warm ivory paper, a small blue watercolor elephant stands beside one peach balloon and a tiny yellow gift box at the lower right. The elephant gently sways its trunk, the balloon bobs softly on its attached string, and a few painted stars twinkle subtly. Keep the elephant, gift and balloon stable, hand-painted paper texture and delicate blue, peach and gold palette. Leave the upper-left half mostly blank ivory for the user's later lettering; do not add any writing yourself. A slow gentle camera push, one continuous shot, graceful and not flashy. Delicate original piano and paper-soft chimes, no voices. No text, numbers, logos or cuts. Exactly ten seconds.
+A little otter's discovery
+10 s · 480p · audio
+Prompt idea A gentle ten-second clay-animation children's story. A small chestnut otter wearing a tiny teal scarf sits beside a shallow turquoise pond, finds one smooth golden pebble, lifts it carefully with both paws and shows it to the camera with a warm smile. Preserve the same face, two paws and tail. Handmade clay texture, mossy rocks, soft morning light, grounded slow movement and a subtle camera push. One continuous landscape 16:9 shot. Light water ambience and playful original pizzicato music, no speech. No extra characters, text, logos or cuts. Exactly ten seconds.
+Paper birds over a quiet town
+10 s · 480p · audio
+Prompt idea A ten-second layered-paper children's animation, landscape 16:9. Two small origami birds, one peach and one pale blue, glide gently across a miniature cream paper town beneath a soft lavender sky. Keep exactly two birds with stable folded wings. Slow lateral camera tracking produces elegant parallax between the rooftops and clouds. Handmade paper fibres, gentle pastel palette, graceful motion and a composed ending above a small arched bridge. One continuous shot. Soft paper flutter and original music-box notes. No people, writing, logos, extra birds or cuts. Exactly ten seconds.
+A calm nursery walkthrough
+10 s · 480p · audio
+Prompt idea Create a photorealistic ten-second nursery interior showcase, landscape 16:9. A calm unoccupied room with a pale oak crib, cream boucle reading chair, sage curtains and a low book shelf containing colorful blank-spine books. The camera slowly glides from the doorway toward the chair, keeping room geometry and furniture stable. Warm morning sunlight, a sheer curtain moving very gently, realistic fabric and wood. Premium interior photography, no people, baby, text, logos or cuts. Quiet room ambience and soft original acoustic music. One continuous shot, exactly ten seconds.
+A handmade bedtime music box
+10 s · 480p · audio
+Prompt idea Create a ten-second stop-motion bedtime scene, landscape 16:9. A small handmade wooden music box sits on a cream nursery shelf. Inside it, a tiny felt white lamb stands safely on a rotating round platform and turns slowly through only a quarter rotation. Its four legs, ears and face remain stable. Visible felt fibres, warm golden lamplight and blurred navy star-pattern wallpaper. A slow camera push reveals the craft texture, peaceful rather than flashy. One continuous shot. Delicate original music-box melody and quiet room ambience. No people, children, lettering, logos, morphing or cuts. Exactly ten seconds.
+A cozy camping story setting
+10 s · 480p · audio
+Prompt idea Create a gentle ten-second illustrated story setting for a children's bedtime video, landscape 16:9. An empty tiny cream tent sits beside a calm blue lake under a starry indigo sky, with a warm lantern outside and a small pine tree. No people or animals. The lantern glow softly flickers, stars twinkle subtly and the lake ripples slowly. Watercolor-gouache texture, warm gold against deep blue, cozy rather than scary. Very slow camera drift with stable tent and tree geometry. One continuous shot. Soft evening breeze, distant crickets and delicate original celesta music. No fire, writing, logos or cuts. Exactly ten seconds.
+Image to video AI: animate a photo or illustration
+Turn a still image into a moving scene for a social post or story. The starting image establishes the composition; your motion prompt directs what happens next.
+Reference image
+A watercolor illustration brought to life · 10 s Keep the look, add movement
+Animate a portrait, an illustrated character or a landscape.
+Describe subject movement and camera movement separately.
+For Reels or Shorts, start with a vertical image; image-to-video follows its framing.
+Animate an image
+AI product videos and reference-led scenes
+Develop a short product reveal or campaign concept using reference media. Seedance 2.5 reference mode also lets you edit or extend an existing clip.
+Product reveal Fabric details Diaper bags Bath essentials Strollers Knitwear Bibs Wooden toys Blankets
+10 seconds · 16:9 View starting photo
+01 / Product reveal
+Let the camera do the moving
+A gentle camera move brings a still product scene to life. Use it as a short product shot, then add your own headline or call to action in your video editor.
+See the motion prompt Animate this product photograph as one continuous ten-second shot. Keep the sage-green bowl, two-handled cup and cream spoon completely still, preserving their shape, color and position. Use a very gentle lateral camera move with soft warm window light. Keep every object, including the cup spout and whole spoon, inside the frame throughout. Natural room ambience and delicate instrumental music, no speech. No added objects, morphing, text, logos or cuts.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 9:16 View starting photo
+02 / Fabric details
+Bring the fabric into focus
+An overhead push-in shifts attention from the whole outfit to the cotton, print and buttons. Start with a vertical photo for a vertical product clip.
+See the motion prompt Animate this babywear product photo as one continuous ten-second overhead shot. Keep the cream cotton onesie flat and still. Preserve its green leaf print, wooden buttons, seams, neckline and sleeves. Slowly push the camera closer to the upper front to reveal fabric texture and button detail. Keep the linen background, basket corner and daisy consistent. Soft warm window light, quiet room ambience and delicate acoustic music. No people, hands, moving clothes, new objects, text, logos or cuts.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 720p View starting photo
+03 / Diaper bags
+Reveal the bag from a gentle new angle
+A restrained camera arc moves toward the front pocket while keeping the complete bag on its stone plinth. The soft light brings out the quilting and zipper details.
+See the motion prompt Animate the uploaded diaper-bag product photo as one continuous ten-second portrait shot. Preserve the exact sage quilted backpack, two handles, straps, front pocket, zippers, stitching and color. Keep the bag upright and entirely in frame on the pale stone plinth. Use a slow restrained camera arc of only a few degrees to reveal fabric texture and the front pocket. Soft warm window light, realistic contact shadows and a calm peach studio background. The bag and accessories do not move or change shape. No added products, people, hands, opening pockets, lettering or logos. Quiet room ambience and delicate original acoustic music. Portrait 9:16, exactly ten seconds, ending on a composed full-product hero view.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 720p View starting photo
+04 / Bath essentials
+Move closer to the soft cotton details
+A slow push-in brings the terry loops, sage edging and bear-ear hood into focus. A warm detail shot for a baby-care collection or social post.
+See the motion prompt Animate the uploaded baby hooded-towel photograph as one continuous ten-second portrait product shot. Preserve the exact folded cream terry towel, small bear-ear hood, sage binding, folds and linen surface. The towel remains completely still. Slowly push the camera toward the terry loops and hood edge, without cropping away the whole hood or changing the folds. Soft morning window light and a gentle shifting reflection in the blurred bathroom background. Realistic cotton texture, quiet premium baby-care mood. No baby, people, hands, water pouring, new objects, changing ears, lettering or logos. Quiet room ambience and a few delicate original piano notes. Portrait 9:16, exactly ten seconds.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 480p View starting photo
+05 / Strollers
+Keep the complete product in the frame
+A fixed camera keeps the canopy, frame and wheels together while soft window light moves across the scene. A calm hero shot for a stroller collection or product listing.
+See the motion prompt Animate the uploaded stroller photo as a ten-second portrait product video. Preserve the exact cream canopy, sage seat, graphite frame, four wheels, push handle, straps and basket. Keep the camera locked and match the original photo composition for the entire shot. No zoom, camera slide, arc, pan, tilt, crop or reframing. All wheels, the canopy, handle and complete frame must stay visible with the same margins. The stroller stays parked, intact and completely still. Only a gentle daylight reflection and faint window shadow drift slowly on the distant studio background. Premium realistic product photography with natural contact shadows. No baby, people, hands, folding, moving wheels, new objects, text or logos. Quiet studio ambience and delicate original music. Portrait 9:16, exactly ten seconds.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 480p View starting photo
+06 / Knitwear
+Show the texture without losing the pair
+Warm light brings out the knitted yarn and sage cuffs. The complete pair remains visible, ready for a collection launch or a short social post.
+See the motion prompt Animate this uploaded pair of knitted baby booties into a ten-second portrait product video. Preserve the exact two oatmeal booties, sage cuffs, laces, stitches and arrangement. Use a locked-off camera with identical original framing from first to last frame: no zoom, push-in, crop, pan or reframing. Both complete booties and all laces stay visible with the same margins. The booties stay completely still. Only the soft window reflection and faint shadow drift gently on the far background, without changing the shoes. Realistic knit texture and warm premium product photography. No added shoes, hands, people, floating laces, changed shape, text or logos. Quiet room ambience and delicate original acoustic music. Portrait 9:16, exactly ten seconds.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 480p View starting photo
+07 / Bibs
+Present a coordinated collection
+Three cotton bibs share one soft palette. Subtle light and shadow add movement while the colors, fasteners and arrangement stay readable.
+See the motion prompt Animate this uploaded flat-lay photo of three cotton baby bibs into a ten-second portrait product video. Preserve exactly three bibs, their cream, peach and sage colors, scalloped edges, snaps, cotton weave and layered positions. Lock the camera to the original composition throughout: no zoom, slide, push-in, pan, crop or reframing. All three complete bibs remain visible with generous margins. The products stay completely still. Only a faint window shadow and soft light reflection drift gently across the surrounding ivory surface. Stable product geometry and realistic fabric, calm premium baby-care photography. No people, hands, new objects, unfolding, changed colors, text or logos. Quiet room ambience and delicate original instrumental music. Portrait 9:16, exactly ten seconds.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 480p View starting photo
+08 / Wooden toys
+Let the shapes and wood grain stand out
+A simple blue backdrop frames the five pastel rings. Gentle shifting light adds life to a still toy scene, with the full base and top piece in view.
+See the motion prompt Animate this wooden stacking-ring toy product photograph as one continuous ten-second portrait clip. Preserve the exact five pastel wooden rings, rounded top piece, central post, cream base, order, colors and grain. Use a locked-off camera: no zoom, push-in, pan, crop, dolly or reframing. Match the original photo composition from start to finish; the entire toy and base remain visible with the same generous margins. The assembled toy is completely still. Only the soft side-window light and its faint shadow drift very gently across the pale blue studio background. Realistic wood texture and calm premium product photography. No moving rings, new pieces, people, hands, text or logos. Quiet room ambience and delicate original marimba. Portrait 9:16, exactly ten seconds.
+Try this setup Try at 720p · 10 s · audio on
+10 seconds · 480p View starting photo
+09 / Blankets
+Give a soft product a warm setting
+Morning light and a nursery background set the mood around a folded muslin blanket. The cloud print and layered edges stay at the center of the shot.
+See the motion prompt Animate the uploaded folded muslin baby blanket photograph into a continuous ten-second portrait product video. Preserve the exact cream blanket, tiny muted-blue cloud print, fine weave, folded edges and oak tabletop. Keep a completely locked-off camera and identical framing for all ten seconds: no zoom, push-in, pan, tilt or crop. The whole folded blanket remains visible with the original generous margins. The blanket and furniture stay still. Only a soft daylight reflection and faint curtain shadow drift slowly across the distant blurred nursery wall, giving the still product scene subtle life. Warm premium baby-care photography, stable geometry and natural shadows. No people, baby, hands, new objects, moving folds, changed print, text or logos. Quiet nursery ambience and delicate original piano. Portrait 9:16, exactly ten seconds.
+Try this setup Try at 720p · 10 s · audio on
+About these creative examples These AI concepts were commissioned for this showcase. They illustrate a creative direction, not a benchmark of the model selected in the editor. Try the photo and prompt with a compatible model; results will vary.
+From visual concept to moving asset
+Use the AI product video generator to turn a product photo into a short showcase clip. Explore the camera directions above, or bring your own image.
+Create with references
+Use images to guide the product, setting or visual style.
+Use a reference clip when you need to guide motion, edit a scene or extend it.
+Download the shot and combine it with captions, music or other clips in your video editor.
+Build the scene before you animate it.
+Explore a new background or lighting in the image generator first.
+Create a product scene
+How to make an AI video
+Need a step-by-step tutorial? Read the full guide →
+1 Choose how to start
+Keep text-to-video selected, or choose image-to-video or reference-to-video in the Seedance model group.
+2 Describe and set the shot
+Add the required media and a motion prompt. Set the supported duration, resolution and audio options.
+3 Check the price and generate
+Confirm the credit total, generate, then play and download the finished clip from your creations.
+Frequently asked questions
+Choose the right video mode, understand the settings and control your generation cost.
+What can this AI video generator create?
+Create short generated scenes from text, animate an image, or use reference media with a supported model. You can download the finished clip. It is a clip generator; it does not automatically assemble a complete edited video with captions, transitions and a publishing schedule.
+Is the AI video generator free?
+Which settings does Seedance 2.5 support?
+Can I edit or extend an existing video?
+How much does a Seedance 2.5 video cost?
+Can I turn a product image into an ecommerce video?
+Can I generate video with sound?
+Can I choose a different AI video model?
+How do I choose a model for video quality?
+More BabyVideo tools
+AI Image Generator
+Create or edit the starting image for your video.
+Talking Baby
+Use a guided portrait and voice workflow.
+Baby Podcast
+Create a baby presenter video from a portrait and audio.
+Give your next scene a little motion
+Choose a scene you want to make, then start with text, an image or references.
+Open the video generator BabyVideo / AI Video Generator
+babyvideo .ai
+BabyVideo.ai helps you turn one photo into adorable AI baby videos, baby podcast clips, and playful AI baby creations in minutes.
+Contact: email@babyvideo.ai
+About
+Guides
+Blog
+Pricing
+Main
+Baby Photo to Video AI
+AI Baby Podcast Video Generator
+AI Dancing Baby Video Generator
+AI Baby Singing Video Generator
+AI Talking Baby Generator
+AI Fruit Baby Video Generator
+AI Baby Generator
+Baby Age Progression AI
+AI Cartoon Baby Generator
+Baby Meme
+Baby Name
+Birthday Video Maker
+Utility
+AI Image Generator
+AI Video Generator
+© 2025 • AI Baby Video All rights reserved.
+Privacy Policy
+Terms of Service
+Refund Policy
+AI Video Generator
+Video tools
+Baby Photo to Video
+Baby Podcast Video
+Dancing Baby Video
+Baby Singing Video
+Talking Baby Video
+Fruit Baby Video
+Birthday Video Maker
+Photo tools
+Baby Age Progression
+Cartoon Baby Art
+Baby Meme
+AI studio
+AI Image Generator
+AI Video Generator
+Baby Name
+AI Video Generator
+Seedance 2.5 Text to Video
+Prompt *
+auto 5s 720p Generate audio
+Watermark Share in gallery (optional)
+Sign in to generate
+Inspirations
+AI Video Generator - Text & Image to Video | BabyVideo

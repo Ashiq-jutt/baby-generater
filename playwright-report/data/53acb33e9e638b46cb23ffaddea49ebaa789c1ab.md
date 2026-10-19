@@ -1,0 +1,145 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: shell.spec.ts >> shell >> S-H2 every tab renders
+- Location: e2e/shell.spec.ts:16:7
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: /^yours$/i }).or(getByRole('tab', { name: /^yours$/i })).or(getByRole('button', { name: /^yours$/i })).first()
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e9]:
+  - generic [ref=e14]:
+    - generic [ref=e15]: Make something
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: Your first video is free
+        - generic [ref=e21]: Sign in and we'll put 30 credits in your account. No subscription, nothing to cancel.
+        - button "Get started" [ref=e22] [cursor=pointer]
+      - button "Photo to video. One photo, one small movement. The place to start." [ref=e24] [cursor=pointer]:
+        - generic [ref=e25]: Photo to video
+        - generic [ref=e26]: One photo, one small movement. The place to start.
+        - generic [ref=e27]: Video · Vidu Q3 Turbo
+      - button "Talking baby. Record a line and the photo says it back." [ref=e28] [cursor=pointer]:
+        - generic [ref=e29]: Talking baby
+        - generic [ref=e30]: Record a line and the photo says it back.
+        - generic [ref=e31]: Video · Kling Avatar
+      - button "Dancing baby. Pick a move, the photo follows it." [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: Dancing baby
+        - generic [ref=e34]: Pick a move, the photo follows it.
+        - generic [ref=e35]: Video · Kling Motion Control
+      - button "Cartoon baby. A cartoon portrait. Cheapest thing here." [ref=e36] [cursor=pointer]:
+        - generic [ref=e37]: Cartoon baby
+        - generic [ref=e38]: A cartoon portrait. Cheapest thing here.
+        - generic [ref=e39]: Image · GPT Image Flare
+      - button "Grow up. One photo, a few different ages." [ref=e40] [cursor=pointer]:
+        - generic [ref=e41]: Grow up
+        - generic [ref=e42]: One photo, a few different ages.
+        - generic [ref=e43]: Image · Age Progression
+      - button "Fruit baby. Silly, and the kids love it." [ref=e44] [cursor=pointer]:
+        - generic [ref=e45]: Fruit baby
+        - generic [ref=e46]: Silly, and the kids love it.
+        - generic [ref=e47]: Video · Fruit Character
+  - tablist [ref=e49]:
+    - tab "✦ ✦ Make" [selected] [ref=e51] [cursor=pointer]:
+      - generic [ref=e52]:
+        - generic [ref=e53]: ✦
+        - generic [ref=e55]: ✦
+      - generic [ref=e57]: Make
+    - tab "▤ ▤ Yours" [ref=e59] [cursor=pointer]:
+      - generic [ref=e60]:
+        - generic [ref=e61]: ▤
+        - generic [ref=e63]: ▤
+      - generic [ref=e65]: Yours
+    - tab "◆ ◆ Credits" [ref=e67] [cursor=pointer]:
+      - generic [ref=e68]:
+        - generic [ref=e69]: ◆
+        - generic [ref=e71]: ◆
+      - generic [ref=e73]: Credits
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from "@playwright/test";
+  2  | import { a11y, expectNoErrors, tab, watchForErrors } from "./helpers";
+  3  | 
+  4  | test.describe("shell", () => {
+  5  |   test("S-H1 the app loads and lists the tools", async ({ page }) => {
+  6  |     const errors = watchForErrors(page);
+  7  |     await page.goto("/");
+  8  |     await expect(page.getByText("Make something")).toBeVisible();
+  9  |     for (const name of [/photo to video/i, /talking baby/i, /dancing baby/i,
+  10 |                         /cartoon baby/i, /grow up/i, /fruit baby/i]) {
+  11 |       await expect(page.getByRole("button", { name })).toBeVisible();
+  12 |     }
+  13 |     expectNoErrors(errors);
+  14 |   });
+  15 | 
+  16 |   test("S-H2 every tab renders", async ({ page }) => {
+  17 |     const errors = watchForErrors(page);
+  18 |     await page.goto("/");
+> 19 |     await tab(page, /^yours$/i).click();
+     |                                 ^ Error: locator.click: Test timeout of 30000ms exceeded.
+  20 |     await expect(page.getByRole("heading", { name: /your videos/i })).toBeVisible();
+  21 |     await tab(page, /^credits$/i).click();
+  22 |     await expect(page.getByRole("heading", { name: /^credits$/i })).toBeVisible();
+  23 |     await tab(page, /^make$/i).click();
+  24 |     await expect(page.getByText("Make something")).toBeVisible();
+  25 |     expectNoErrors(errors);
+  26 |   });
+  27 | 
+  28 |   test("S-E1 no horizontal scroll at phone width", async ({ page }) => {
+  29 |     await page.setViewportSize({ width: 390, height: 844 });
+  30 |     for (const path of ["/", "/credits", "/creations", "/tool/baby-video"]) {
+  31 |       await page.goto(path);
+  32 |       await page.waitForTimeout(250);
+  33 |       const overflow = await page.evaluate(() =>
+  34 |         document.documentElement.scrollWidth - document.documentElement.clientWidth);
+  35 |       expect(overflow, `${path} scrolls sideways by ${overflow}px`).toBeLessThanOrEqual(1);
+  36 |     }
+  37 |   });
+  38 | 
+  39 |   test("S-E2 keyboard reaches the tools", async ({ page }) => {
+  40 |     await page.goto("/");
+  41 |     const reached: string[] = [];
+  42 |     for (let i = 0; i < 30; i++) {
+  43 |       await page.keyboard.press("Tab");
+  44 |       const label = await page.evaluate(() => {
+  45 |         const el = document.activeElement as HTMLElement | null;
+  46 |         return el?.getAttribute("aria-label") ?? el?.innerText?.slice(0, 40) ?? "";
+  47 |       });
+  48 |       if (label) reached.push(label);
+  49 |       if (reached.some((l) => /photo to video/i.test(l))) break;
+  50 |     }
+  51 |     expect(reached.some((l) => /photo to video/i.test(l)),
+  52 |       `tab order never reached the first tool. Reached: ${reached.join(" | ")}`).toBe(true);
+  53 |   });
+  54 | 
+  55 |   test("S-A1 no serious a11y violations on the main screens", async ({ page }) => {
+  56 |     await page.goto("/");                 await a11y(page, "home");
+  57 |     await page.goto("/credits");          await a11y(page, "credits");
+  58 |     await page.goto("/creations");        await a11y(page, "creations");
+  59 |     await page.goto("/tool/baby-video");  await a11y(page, "editor");
+  60 |     await page.goto("/sign-in");          await a11y(page, "sign-in");
+  61 |   });
+  62 | });
+  63 | 
+```

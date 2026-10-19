@@ -1,0 +1,43 @@
+{
+  "name": "babyclip",
+  "version": "0.1.0",
+  "main": "expo-router/entry",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test:quote": "node --no-warnings --experimental-strip-types lib/quote.test.ts",
+    "tokens": "python3 replica/design/build-tokens.py && cp replica/design/theme.ts lib/theme.ts && cp replica/design/tailwind.config.js tailwind.config.js",
+    "test:db": "./scripts/test-db.sh",
+    "test:functions": "./scripts/test-functions.sh",
+    "test:data": "node --no-warnings --experimental-strip-types lib/data/fake.test.ts",
+    "check:quote-sync": "./scripts/sync-quote.sh --check"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "expo": "58.0.14",
+    "expo-constants": "~58.0.12",
+    "expo-image-picker": "~58.0.10",
+    "expo-linking": "~58.0.13",
+    "expo-router": "58.0.23",
+    "expo-status-bar": "~58.0.3",
+    "nativewind": "4.2.7",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-native": "0.88.0",
+    "react-native-reanimated": "~4.7.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0",
+    "react-native-web": "~0.21.4"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
+    "@types/react": "~19.3.0",
+    "tailwindcss": "3.4.19",
+    "typescript": "~5.9.0"
+  }
+}

@@ -1,0 +1,128 @@
+SOURCE: https://babyvideo.ai/how-to/make-baby-grow-up-videos
+
+babyvideo .ai
+Get Started
+Guides
+Pricing
+Blog
+United States
++10 Sign In
+babyvideo .ai
+Back to all guides 2026-10-10
+Baby Grow Up Generator
+Start with a clear baby photo, then generate multiple ages and pick the most believable result. Better inputs reduce identity drift.
+To make a baby grow-up video, first create portraits at different ages, then arrange them in a video editor. Follow the photo comparison below, choose your age sequence, and use the six-second editing plan to put it together.
+Quick Steps One photo, two imagined ages Choose a photo Plan the ages Make the video Fix common problems Tips FAQ One photo, two imagined ages
+This is one worked comparison: the original photo and two age-progression results. All three are square images. Open a picture to inspect it at full size and see its available settings.
+Original photo View details The starting photo shows one unobstructed face, both eyes and the shoulders. Keep this same file as the input for every age. Age 5 result View details Target age: 5. The hair, clothing and background have changed. Check the eyes and smile against the original before choosing this frame. Age 18 result View details Target age: 18. The face fills more of the picture and the background changes again. Match the face size when arranging the images in an editor.
+What this comparison tells you
+A matching 1:1 ratio does not keep the pose, clothing or background fixed. Here, the outdoor middle image would create a visible scene change. A simple cut works for a photo montage; a long dissolve may show two overlapping faces. These results are imagined portraits, not a prediction of the child’s future appearance.
+The original photo, age 5 and age 18 are shown separately. Compare facial features and framing against the original. These images illustrate imagined ages, not how the child will actually grow.
+Quick Steps
+Follow the steps from preparing your inputs to checking the result.
+Open the tool
+1
+Open the Baby Grow Up tool.
+2
+Upload a clear baby photo (one face, good lighting).
+3
+Choose a target age from 1 to 100, gender and an available aspect ratio. Keep the same source photo when comparing ages.
+4
+Generate and compare results.
+5
+Retry with a sharper photo if the identity changes too much.
+6
+Download each finished image. To make a grow-up video, animate or arrange those images separately; this tool itself creates still age-progression portraits.
+Tool options you can choose
+Aspect ratio: 1:1 2:3 3:2 4:3 3:4 4:5 5:4 9:16 16:9
+Choose target age (1–100) and gender.
+Choose a photo that gives the model a clear face
+Check the source before generating a whole sequence. If the eyes or mouth are unclear in the original, a larger exported image will not recover those details.
+One face, facing the camera
+Use a photo with both eyes visible. Crop other people out and avoid a hand, pacifier or toy covering the mouth; those areas otherwise have to be invented.
+Soft light and visible detail
+Choose an evenly lit photo where you can inspect the eyes at full size. Avoid strong shadows, blur and beauty filters that erase the features you want to compare.
+Room around the head
+Include the whole head and some shoulders. A crop tight against the hairline leaves little room to match the framing across older portraits.
+A simple background
+A plain wall makes changes easier to spot. A detailed room or busy outdoor scene can change between ages, so plan to crop or accept a scene cut.
+Upload JPG, PNG or WebP, up to 10 MB. Use the original photo file when possible rather than a screenshot of a social post.
+Generate a sequence you can actually edit together
+Start with one target age and inspect it before spending credits on the rest. The dedicated tool uses an age control; there is no growth prompt to paste here.
+Target age · 1–100 For the short example, generate age 5 and age 18 separately. The buttons also offer 10 and 25. An age is a request to the model, so judge the visible result rather than expecting an exact biological age.
+Source photo & gender Keep the original photo and the selected gender the same while changing ages. Feeding the age-5 result back in for age 18 can carry its invented details into the next result.
+Aspect ratio Use 1:1 to follow this square example, 9:16 for a vertical edit, or 16:9 for a landscape video. Pick one ratio for the whole sequence; it does not guarantee matching face size or position.
+Format & credits Choose JPG or PNG, then check the credit amount beside Generate. Each age needs its own generation. Download only after opening the completed result and checking the face; keep files named by age so they sort clearly.
+Want a longer growth story?
+Original → age 5 → age 10 → age 18
+Age 10 is an optional extra generation, not a result shown on this page. With four pictures held for two seconds each, a straight-cut montage lasts eight seconds. For a record of real growth, use actual dated family photos instead of generated ages.
+Turn the portraits into a six-second video
+You can build this simple version in a video editor such as CapCut or iMovie. It uses three still images, two seconds each, with straight cuts. No extra AI animation is needed.
+Preview the timing
+Original photo
+Original photo 0 – 2 s Age 5 result 2 – 4 s Age 18 result 4 – 6 s
+Play 6-second preview 0.0 / 6.0 s
+Browser timing preview made from the three pictures above. This is a slideshow, not a generated aging or face-morph video. It has no audio. 1 Import and order the images
+Create a new project, choose the canvas ratio and import the original, age 5 and age 18. Arrange them in that order. For these square examples, a square canvas keeps the full pictures visible.
+2 Match the faces before adding effects
+Compare the eye line and head size at each cut. Adjust scale and position in the editor without stretching the image. If a vertical canvas cuts off the head, fit the square image inside it and use a background fill.
+3 Set the timing
+Place the original at 0–2 seconds, age 5 at 2–4 seconds and age 18 at 4–6 seconds. Play once with no transition. If you add a short dissolve, recheck the total duration and look for a distracting double face.
+4 Add labels and optional sound
+Use short labels such as “Original”, “Age 5 · AI” and “Age 18 · AI”. Keep them below the face and away from the edges. Add a voice message or music you have permission to use, then listen through the cuts.
+5 Export and watch the saved file
+Where your editor supports it, MP4 at 1080p and 30 fps is a practical starting point. Exporting at a higher resolution does not add missing facial detail. Open the saved video on your phone and check the crop, labels, first frame, last frame and sound.
+Optional: add a little movement to each portrait
+If you want a blink or small smile, animate each selected portrait separately in a model that supports image-to-video, then trim those clips in your editor. This creates moving portraits; it does not guarantee a smooth transformation between ages. Available durations, resolution and credits depend on the video model.
+Example motion instruction to try — not the prompt used for these stills
+Keep the camera still. The person blinks once and gives a small, natural smile. Keep the face, hairstyle, clothing and background consistent with the input photo. No head turn or camera zoom. Follow the image-to-video guide →
+When the result does not cut together well
+Find the problem in the still images first. A transition cannot repair a face you already dislike.
+The older portrait looks like someone else Compare the eyes, eyebrows, nose and smile with the original. Retry the affected age from the original photo; if the source is blurry or filtered, replace it before generating more ages.
+The head jumps at every cut Align the eye line and match the head size in the editor. If aligning one frame requires cutting off the hair or chin, use a wider crop or generate that frame again.
+Clothes or backgrounds suddenly change This can happen even with the same settings, as the age-5 example shows. Keep straight cuts for a montage, crop distracting areas, or choose a closer visual match. A long dissolve can make the mismatch more obvious.
+Two faces overlap during a transition Shorten or remove the dissolve and check alignment. A dissolve fades between two images; it does not generate the missing ages or turn the face smoothly into the next one.
+The video feels rushed or the labels get clipped Extend the still-image duration in the editor and give every age time to register. Preview on the device you will share to; move text inward and inspect the crop before exporting again.
+Tips
+Avoid heavy filters and strong makeup in the input photo.
+Front-facing photos usually preserve identity better.
+Try multiple ages—some age targets look more natural than others.
+FAQ
+Why does it look like a different person? ▼ Identity drift often happens with low-quality or heavily filtered photos. Use a sharper photo with natural lighting.
+Which age should I choose first? ▼ Try a mid-range age like 10 or 50 first, then explore younger/older options.
+Can I use non-baby photos? ▼ You can, but results are usually best when the subject is a baby in the input photo.
+Does Baby Grow Up export a finished growth video? ▼ The Baby Grow Up tool generates still portraits at selected ages. Download the images and arrange them in a video editor. Optional image-to-video generation is a separate step, with its own settings and credit cost.
+How many images do I need for a short video? ▼ The worked edit uses three: the original plus two generated ages. At two seconds per image with straight cuts, it lasts six seconds. Add more ages only if you want a longer sequence.
+Can I use real photos from different years? ▼ Yes. Put actual family photos in chronological order in your video editor and align the faces. You do not need age progression for years you already have photographs of. Label generated ages if you mix them with real photos.
+Will the generated adult look like my child in the future? ▼ There is no way to verify that from this tool. It creates an imagined appearance from a photo and a requested age; it is not a genetic or medical prediction.
+Ready to generate?
+Choose your own inputs and check the available settings before generating.
+Open the main tool
+babyvideo .ai
+BabyVideo.ai helps you turn one photo into adorable AI baby videos, baby podcast clips, and playful AI baby creations in minutes.
+Contact: email@babyvideo.ai
+About
+Guides
+Blog
+Pricing
+Main
+Baby Photo to Video AI
+AI Baby Podcast Video Generator
+AI Dancing Baby Video Generator
+AI Baby Singing Video Generator
+AI Talking Baby Generator
+AI Fruit Baby Video Generator
+AI Baby Generator
+Baby Age Progression AI
+AI Cartoon Baby Generator
+Baby Meme
+Baby Name
+Birthday Video Maker
+Utility
+AI Image Generator
+AI Video Generator
+© 2025 • AI Baby Video All rights reserved.
+Privacy Policy
+Terms of Service
+Refund Policy
+Baby Grow Up Generator: See Your Baby at Different Ages

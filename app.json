@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "BabyClip",
+    "slug": "babyclip",
+    "scheme": "babyclip",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": false, "bundleIdentifier": "com.example.babyclip" },
+    "android": { "package": "com.example.babyclip", "edgeToEdgeEnabled": true },
+    "web": { "bundler": "metro", "output": "single" },
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", {
+        "photosPermission": "BabyClip needs access to your photos so you can pick a baby photo to animate."
+      }]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}

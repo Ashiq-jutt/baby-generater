@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "vidu-q3-turbo",
+    "params": {
+      "durationS": 5,
+      "resolution": "540p"
+    },
+    "hash": "aea018e6",
+    "credits": 25
+  },
+  {
+    "slug": "vidu-q3-turbo",
+    "params": {
+      "resolution": "540p",
+      "durationS": 5
+    },
+    "hash": "aea018e6",
+    "credits": 25
+  },
+  {
+    "slug": "vidu-q3-turbo",
+    "params": {
+      "durationS": 10,
+      "resolution": "720p",
+      "aspect": "9:16",
+      "skinTone": "deep"
+    },
+    "hash": "9722f485",
+    "credits": 90
+  },
+  {
+    "slug": "kling-avatar",
+    "params": {
+      "durationS": 3.1,
+      "resolution": "480p"
+    },
+    "hash": "d61c9f65",
+    "credits": 50
+  },
+  {
+    "slug": "kling-motion-control",
+    "params": {
+      "durationS": 10
+    },
+    "hash": "f75714e1",
+    "credits": 110
+  },
+  {
+    "slug": "gpt-image-flare",
+    "params": {
+      "size": "2k",
+      "imageCount": 3
+    },
+    "hash": "bbe5a5c2",
+    "credits": 9
+  },
+  {
+    "slug": "fruit-character",
+    "params": {
+      "durationS": 5,
+      "resolution": "480p"
+    },
+    "hash": "234c34ab",
+    "credits": 80
+  }
+]

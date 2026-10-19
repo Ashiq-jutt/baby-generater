@@ -1,0 +1,138 @@
+SOURCE: https://babyvideo.ai/privacy-policy
+
+Privacy Policy
+Last updated: 12.08, 2025
+Introduction
+Welcome to AI Baby Video. Your privacy is important to us, and this Privacy Policy explains how we collect, use, and share your personal data when you use our Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
+1. Information We Collect
+1.1 Account Information
+When you create an account with us, we collect information that you provide directly to us, including:
+Email address : Used for account authentication, login, and communication
+Account credentials (username, password)
+Profile information (if you choose to provide it)
+Any other information you choose to provide
+We require accurate and complete information as stated in our Terms of Service. Failure to provide accurate information may result in account termination.
+1.2 Uploaded Content
+When you use our AI generation services, we collect:
+Photos and images you upload : Used as input for AI video/image generation
+Videos you upload : Used as input for AI video processing features
+Generated content : Videos and images created by our AI based on your uploads
+Why we collect this data : These uploads are essential for our core service - generating AI baby videos, images, and other creative outputs you request.
+1.3 Usage Information
+We automatically collect certain information about how you use our Service, including:
+Features and services you access
+Videos and content you create or generate
+Time and frequency of your use
+Interactions with our Service
+Credit usage and transaction history
+1.4 Device Information
+We collect information about the devices you use to access our Service, such as:
+Device type and model
+Operating system
+Browser type and version
+IP address
+Unique device identifiers
+1.5 Payment Information
+When you make a purchase, we collect payment-related information, including:
+Billing address
+Payment method details (processed securely through third-party payment processors)
+Transaction history
+2. How We Use Your Information
+We use the information we collect to:
+Provide AI generation services : Process your uploaded photos/videos to generate AI content
+Provide, maintain, and improve our Service
+Process your transactions and manage your account
+Send you technical notices, updates, and support messages
+Respond to your comments, questions, and requests
+Monitor and analyze usage patterns and trends
+Detect, prevent, and address technical issues
+Ensure compliance with our Terms of Service
+Protect the security and integrity of our Service
+3. Data Retention and Deletion
+3.1 Uploaded Content - Not Stored on Our Servers
+Your uploaded photos and videos are NOT stored on our servers. Here's how it works:
+Files you upload are processed locally in your browser
+They are converted to temporary data and directly sent to our AI processing partners
+We do not store or retain your original uploaded files
+Once processing is complete, the temporary data is discarded
+3.2 Generated Content - 7 Day Retention
+AI-generated content (videos and images) is automatically deleted after 7 days. This includes:
+All AI-generated videos and images
+Result URLs from our AI processing partners
+We recommend downloading your generated content promptly, as it will not be recoverable after the 7-day retention period.
+3.3 Account Data Retention
+We retain your account information (email, usage history, credit balance) for as long as your account is active. When you delete your account, we will delete or anonymize your personal information within 30 days, except where we are required to retain it for legal, regulatory, or legitimate business purposes.
+3.4 Why We Delete Data
+We implement automatic deletion to:
+Protect your privacy
+Minimize data storage
+Reduce security risks
+Comply with data protection best practices
+4. Information Sharing and Disclosure
+4.1 Your Content Belongs to You
+We do NOT share your uploaded content or generated results with any third parties. Your photos, videos, and AI-generated content are:
+Used solely to provide the service you requested
+NOT used to train AI models
+NOT sold or shared with advertisers
+NOT accessible to other users
+Automatically deleted after 7 days
+4.2 AI Processing Partners
+When you use our generation features, your content is temporarily processed by our AI infrastructure partners (such as Replicate) solely for the purpose of generating your requested output. These partners:
+Process data only to fulfill your generation request
+Do not retain your content after processing is complete
+Are contractually prohibited from using your content for any other purpose
+Have no ownership or rights to your content
+4.3 Service Providers
+We may share limited account information (not your uploaded content) with third-party service providers who perform services on our behalf, such as:
+Payment processing (Stripe, Creem)
+Cloud hosting infrastructure
+Analytics and error monitoring
+Customer support tools
+These service providers are contractually obligated to protect your information and use it only for the purposes we specify.
+4.4 Legal Requirements
+We may disclose your information if required to do so by law or in response to valid requests by public authorities.
+4.5 Protection of Rights
+We may share information to protect our rights, property, or safety, or that of our users or others, including to prevent fraud or abuse.
+4.6 Business Transfers
+In the event of a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction.
+5. Data Storage and Security
+We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. This includes:
+Encrypted data transmission (HTTPS/TLS)
+Secure cloud storage with access controls
+Regular security audits
+Limited employee access to user data
+However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+Your account information is protected by encryption, and we use secure servers to store your data. You are responsible for maintaining the confidentiality of your account credentials.
+6. Your Rights and Choices
+You have certain rights regarding your personal information:
+Access : You can access and review your personal information through your account settings
+Correction : You can update or correct your account information at any time
+Deletion : You can request deletion of your account and personal information
+Download : You can download your generated content within the 7-day retention period
+Opt-out : You can opt-out of certain communications from us
+To exercise these rights, please contact us at email@babyvideo.ai
+7. Cookies and Tracking Technologies
+We use cookies and similar tracking technologies to track activity on our Service and hold certain information. Cookies are files with a small amount of data that may include an anonymous unique identifier.
+You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+8. Third-Party Links
+Our Service may contain links to third-party websites or services that are not owned or controlled by us. We have no control over, and assume no responsibility for, the privacy policies or practices of any third-party websites or services.
+We encourage you to review the privacy policies of any third-party sites you visit.
+9. Children's Privacy
+Our Service is not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately.
+10. International Data Transfers
+Your information may be transferred to and maintained on computers located outside of your state, province, country, or other governmental jurisdiction where data protection laws may differ from those in your jurisdiction.
+By using our Service, you consent to the transfer of your information to facilities located outside your jurisdiction.
+11. Changes to This Privacy Policy
+We reserve the right, at our sole discretion, to modify or replace this Privacy Policy at any time. If a revision is material, we will provide at least 30 days' notice prior to any new terms taking effect.
+We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date. You are advised to review this Privacy Policy periodically for any changes.
+12. Summary of Key Points
+Data Type Purpose Retention Shared with Third Parties?
+Email Account & login Until account deletion No (except payment processors)
+Uploaded photos/videos AI generation 7 days, then auto-deleted No
+Generated content Delivery to you 7 days, then auto-deleted No
+Payment info Process purchases As required by law Payment processors only
+Usage data Improve service Until account deletion Analytics tools (anonymized)
+13. Contact Us
+If you have any questions about this Privacy Policy or our data practices, please contact us at:
+Email : email@babyvideo.ai
+By using our Service, you acknowledge that you have read, understood, and agree to be bound by this Privacy Policy.
